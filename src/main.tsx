@@ -93,7 +93,7 @@ Devvit.addCustomPostType({
 
 		return (
 			<blocks height="regular">
-				<vstack padding="medium" gap="medium" alignment="middle center">
+				<vstack padding="medium" alignment="middle center" gap="medium">
 					<text size="large">{gameStatus}</text>
 					{[0, 1, 2].map((row) => (
 						<hstack key={row.toString()} gap="large">
@@ -105,10 +105,9 @@ Devvit.addCustomPostType({
 										onPress={() => handleSquarePress(index)}
 										disabled={board[index] !== null || gameOver}
                     size="large"
-                    textColor={board[index] ? "#FFFFFF" : "#000000"}
-									
+                    appearance="secondary"
 									>
-										{board[index] || " "}
+										{board[index] || ""}
 									</button>
 								);
 							})}
