@@ -1,4 +1,4 @@
-# Reddit Tic Tac Toe Devvit App
+# Reddit Tic Tac Toe App
 
 ## Overview
 This is a Tic Tac Toe game. Players can enjoy a quick game against a computer opponent directly on Reddit.
