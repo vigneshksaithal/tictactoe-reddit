@@ -1,7 +1,7 @@
 # Reddit Tic Tac Toe Devvit App
 
 ## Overview
-This is a Tic Tac Toe game built as a custom post type for Reddit using the Devvit platform. Players can enjoy a quick game against a computer opponent directly within Reddit.
+This is a Tic Tac Toe game. Players can enjoy a quick game against a computer opponent directly on Reddit.
 
 ## Features
 - Interactive 3x3 Tic Tac Toe grid
