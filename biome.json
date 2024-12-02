@@ -12,5 +12,5 @@
       "enabled": true,
       "rules": { "recommended": true }
     },
-    "javascript": { "formatter": { "quoteStyle": "double" } }
+    "javascript": { "formatter": { "quoteStyle": "double", "semicolons": "asNeeded" } }
   }
