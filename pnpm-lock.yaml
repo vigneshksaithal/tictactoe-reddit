@@ -16,8 +16,8 @@ importers:
         specifier: 1.9.4
         version: 1.9.4
       typescript:
-        specifier: 5.3.2
-        version: 5.3.2
+        specifier: 5.7.2
+        version: 5.7.2
 
 packages:
 
@@ -166,8 +166,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  typescript@5.3.2:
-    resolution: {integrity: sha512-6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==}
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -315,7 +315,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  typescript@5.3.2: {}
+  typescript@5.7.2: {}
 
   undici-types@6.20.0: {}
 
