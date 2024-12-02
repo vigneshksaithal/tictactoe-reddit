@@ -104,12 +104,13 @@ export const TicTacToe = (context: Context) => {
                             const index = row * 3 + col;
                             return (
                                 // biome-ignore lint/a11y/useButtonType: <explanation>
-<button
+                                <button
                                     key={index.toString()}
                                     onPress={() => handleSquarePress(index)}
                                     disabled={board[index] !== null || gameOver}
                                     size="large"
-                                    appearance="secondary"
+                                    appearance="bordered"
+                                    darkTextColor="red"
                                 >
                                     {board[index] || ""}
                                 </button>
@@ -119,7 +120,7 @@ export const TicTacToe = (context: Context) => {
                 ))}
                 {gameOver && (
                     // biome-ignore lint/a11y/useButtonType: <explanation>
-<button appearance="primary" onPress={resetGame}>
+                    <button appearance="primary" onPress={resetGame}>
                         Play Again
                     </button>
                 )}

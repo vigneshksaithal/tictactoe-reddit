@@ -1,6 +1,6 @@
 // Learn more at developers.reddit.com/docs
 import { Devvit } from "@devvit/public-api";
-import { TicTacToe } from "./components/TicTacToe";
+import { TicTacToe } from "./components/TicTacToe.js";
 
 Devvit.addCustomPostType({
     name: "Tic Tac Toe",
