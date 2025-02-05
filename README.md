@@ -31,6 +31,3 @@ The computer AI follows a "normal" difficulty strategy:
 - Blocks your potential winning moves
 - Prefers the center square
 - Makes random moves when no strategic move is apparent
-
-## Contact
-contact at aithal .dev
